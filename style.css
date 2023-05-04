@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    position: relative;
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav .navtext{
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+}
+
+.level1{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}
+
+.level1btn{
+    width: 10rem;
+    height: 5rem;
+    padding: 0;
+    margin:0;
+    border: none;
+    font-size: 20px;
+    background-color:bisque;
+}
+.level1btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 217, 172);
+}
+
+.container{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+
+}
+.inner-container{
+    width: 25%;
+    border-right: 1px solid rgb(105, 105, 105);
+    justify-content: center;
+}
+
+.inner-container label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+.mainLabel {
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(105, 105, 105);
+    padding-bottom: 10px;
+}
+.prop label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.inner-container input{
+    width: 90%;
+    height: 2em;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+.inner-container select{
+    width: 90%;
+    height: 2em;
+    margin: 10px;
+    border-radius: 8px;
+
+
+}
+.inner-container button{
+    cursor: pointer;
+    height: 3em;
+    width: 8em;
+    margin: 10px;
+    border-radius: 5px;
+    border:none;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.prop3{
+    border-bottom: 1px solid rgb(105, 105, 105);
+    padding-bottom: 10px;
+}
+
+
+.inner-container-last{
+    width: 25%;
+}
+
+
+.prop{
+    padding: 10px 0 10px 0;
+    margin-left: 8px;
+
+}
+
+.prop button{
+    cursor: pointer;
+    height: 1.1cm;
+    width: 1.1cm;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.prop1{
+    border-bottom: 1px solid rgb(105, 105, 105);
+
+
+}
+.prop2{
+    border-bottom: 1px solid rgb(105, 105, 105);
+
+}
+
+.list{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.b{
+    padding-right: 4px;
+    padding-left: 10px;
+
+}

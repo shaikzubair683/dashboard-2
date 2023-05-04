@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <Nav>
+        <div class="navtext">
+            <span>Dashboard</span>
+        </div>
+    </Nav>
+    <div class="level1">
+        <button id="milkBtn" class="level1btn">Milk</button>
+        <button class="level1btn">Dahi</button>
+        <button class="level1btn">Others</button>
+    </div>
+    <div class="container">
+        <div class="inner-container">
+            <div class="mainLabel">
+                <label>Milk</label>
+            </div>
+            <div class="prop prop1">
+                    <label for="quantity-milk">Quantity</label>
+                    <input id = "quantity-milk" type="number">
+                    <button id = "btn1" class="milkbtns milk ">
+                        1
+                    </button>
+                    <button id = "btn2" class="milkbtns milk">
+                        2
+                    </button>
+                    <button id = "btn3" class="milkbtns milk">
+                        3
+                    </button>
+                    <button id = "btn4" class="milkbtns milk">
+                        4
+                    </button>
+                    
+            </div>
+            <div class="prop prop2">
+                    <label for= "liter-milk">Liters</label>
+                    <input id = "liter-milk" type="number">
+                    <button id = "btn5" class="milkbtns milk">
+                        1
+                    </button>
+                    <button id = "btn6" class="milkbtns milk">
+                        1/2
+                    </button>                 
+            </div>
+            <div class="prop prop3">
+                    <label for="type-milk">Type</label>
+                    <select id="type-milk">
+                        <option value="Fcm">Fcm</option>
+                        <option value="Tm">Tm</option>
+                        <option value="Dtm">Dtm</option>
+                        <option value="Select" selected disabled="disabled">Select type</option>
+
+                    </select>
+                    <button id = "btn7" class="milkbtns milk">
+                        Fcm
+                    </button>
+                    <button id = "btn8" class="milkbtns milk">
+                        Tm
+                    </button>
+                    <button id = "btn9" class="milkbtns milk">
+                        Dtm
+                    </button>
+            </div>
+            <button id="btn10" type="submit">Add</button>
+            <button>Clear</button>
+
+        </div>
+
+
+        <div class="inner-container">
+            <div class="mainLabel">
+                <label>Dahi</label>
+            </div>
+            <div class="prop prop1">
+                    <label>Quantity</label>
+                    <button id = "btn1" class="milkbtns dahi">
+                        1
+                    </button>
+                    <button id = "btn2" class="milkbtns dahi">
+                        2
+                    </button>
+                    <button id = "btn3" class="milkbtns dahi">
+                        3
+                    </button>
+                    <button id = "btn4" class="milkbtns dahi">
+                        4
+                    </button>
+                    <button id = "btn5" class="milkbtns dahi more">
+                        ...
+                    </button>
+            </div>
+            <div class="prop prop2">
+                    <label>Type</label>
+                    <button id = "btn6" class="milkbtns dahi">
+                        200g
+                    </button>
+                    <button id = "btn7" class="milkbtns dahi">
+                        400g
+                    </button>
+                    <button id = "btn8" class="milkbtns dahi">
+                        1Kg
+                    </button>
+                    <button id = "btn9" class="milkbtns dahi">
+                        90g
+                    </button>
+                    <button id = "btn10" class="milkbtns dahi">
+                        C200g
+                    </button>
+                    <button id = "btn11" class="milkbtns dahi">
+                        C400g
+                    </button>
+                    <button id = "btn12" class="milkbtns dahi">
+                        tc
+                    </button>
+                    <button id = "btn13" class="milkbtns dahi">
+                        pc
+                    </button>
+                    <button id = "btn14" class="milkbtns dahi">
+                        mp
+                    </button>
+                    <button id = "btn15" class="milkbtns dahi">
+                        b
+                    </button>
+                    <button id = "btn16" class="milkbtns dahi">
+                        sc
+                    </button>
+            </div>
+        </div>
+
+
+
+        <div class="inner-container">
+            <div class="mainLabel">
+                <label>Others</label>
+            </div>
+            <div class="prop prop3">
+                    <label>Quantity</label>
+                    <button id = "btn1" class="milkbtns others">
+                        1
+                    </button>
+                    <button id = "btn2" class="milkbtns others">
+                        2
+                    </button>
+                    <button id = "btn3" class="milkbtns others">
+                        3
+                    </button>
+                    <button id = "btn4" class="milkbtns others">
+                        4
+                    </button>
+                    <button id = "btn5" class="milkbtns others more">
+                        ...
+                    </button>
+            </div>
+            <form class="prop3">
+                <label for="cost">Amount</label>
+                <input type="number" name="cost" id="cost" placeholder="Enter amount...">
+                <button type="submit">Ok</button>
+            </form>
+        </div>
+
+        <div class="inner-container-last">
+            <div class="mainLabel" id="receipt">
+                <label>Reciept</label>
+                
+            </div>
+
+            <div id="add">
+            </div>
+            
+            <div id="total">
+
+            </div>
+            
+            
+        </div>
+    </div>  
+
+ 
+
+    <script src="./index.js"></script>
+
+</body>
+</html>
